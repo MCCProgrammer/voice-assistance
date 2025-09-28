@@ -39,7 +39,7 @@ def take_command():
     try:
         print("Recognizing...")
         query = r.recognize_google(audio, language='en-US')
-        print(f"You said: {query}")
+        print(f"You said: {query}") 
     except sr.UnknownValueError:
         print("Sorry, I did not catch that. Please say that again.")
         return "None"
