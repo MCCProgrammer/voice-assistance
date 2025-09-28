@@ -14,7 +14,7 @@ def speak(text):
         engine.say(text)
         engine.runAndWait()
     except:
-        print("Speech output not supported in Colab..")
+        print("Speech output not supported in Colab.")
 
 def wish_user():
     hour = int(datetime.datetime.now().hour)
